@@ -21,7 +21,7 @@ A run of the geodump.py program is as follows:
 ```
 ...
 10) 31.5488923; -97.1130573; 1311 S 5th St, Waco, TX 76706, USA
-11) 39.9619537; 116.3662615; 19 Xinjiekou Outer St, Bei Tai Ping Zhuang, Haidian Qu, Beijing Shi, China, 100875
+11) 39.9619537; 116.3662615; 19 Xinjiekou Outer St, Bei Tai Ping Zhuang, Beijing Shi, China, 100875
 12) 53.8938988; 27.5460609; prasp. Niezaliežnasci 4, Minsk, Belarus
 ...
 300 records were written in a my_where.js file
