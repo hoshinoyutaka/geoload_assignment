@@ -2,6 +2,7 @@ import urllib.request, urllib.parse, urllib.error
 import sqlite3
 import ssl
 import json
+import hidden
 
 #Ignore certificate errors
 ctx = ssl.create_default_context()
@@ -9,7 +10,8 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 service_url = 'https://maps.googleapis.com/maps/api/geocode/json'
-api_key = None
+secrets = hidden.oauth()
+api_key = secrets['api_key']
 
 if api_key is None:
     api_key = 42
