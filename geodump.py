@@ -29,7 +29,7 @@ for json_str in data:
     print(str(count+1)+')', '; '.join([str(lat),str(lng),f_addr]))
     
     if count == 0:
-        s = '['+str(lat)+','+str(lng)+',\''+f_addr+'\']'
+        s = '['+str(lat)+','+str(lng)+',\''+f_addr+'\']'   # smth like [33.45,-112.07,'Phoenix, AZ 85004, USA']
     else:
         s = ',\n'+'['+str(lat)+','+str(lng)+',\''+f_addr+'\']'
     
